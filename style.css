@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    height: 68px;
+    position: sticky;
+    top: 0;
+    min-height: 70px;
+    z-index: 1;
+    align-items: center;
+    display: flex;
+    padding: 0 4%;
+}
+.leftbar{
+    display: flex;
+}
+.nav_links{
+    display: flex;
+}
+.logo{
+    margin-right: 25px;
+}
+.hea{
+    font-size: 14px;
+    
+    text-decoration: none;
+    margin-left: 18px;
+}
+.ah{
+    align-items: center;
+    color: #e5e5e5;
+    display: flex;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+}
+ul{
+    /* padding-inline-start: 40px; */
+    align-items: center;
+    list-style-type: none;
+}
+.rightbar{
+
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+    position: absolute;
+    right: 60px;
+    
+}
+
+.home{
+    font-weight: 500;
+}
+svg{
+    width: 24;
+    height: 24;
+    fill: none;
+    margin-right: 0;
+}
+.svg1{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.svg2{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    line-height: 1;
+    margin-top: .2em;
+    padding: 2px 6px 3px;
+    position: relative;
+
+    color: inherit;
+    font: inherit;
+    margin-right: 15px;
+}
+.child{
+    margin-right: 15px;
+}
+.accnt{
+    position: relative;
+    z-index: 0;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+}
+.caret{    
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 5px 5px 0;
+    height: 0;
+    margin-left: 10px;
+    width: 0;
+}
+.profile-icon{
+    border-radius: 4px;
+    height: 32px;
+    vertical-align: middle;
+    width: 32px;
+    border: 0;
+}
+.stranger{
+    background-position: 50%;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.bodyy{
+    bottom: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    left: 4%;
+    position: absolute;
+    top: 0;
+    width: 36%;
+    z-index: 10;
+}
+.textto{
+    color: #fff;
+    font-size: 1.6vw;
+    margin: 1vw 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .45);
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+}
+.texttoo{
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: .1vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .45);
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    line-height: 88%;
+    margin-top: 1.5vw;
+    white-space: nowrap;
+
+}
+.abut{
+    display: flex;
+    width: 125px;
+    height: 43px;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+.playbut{
+    color: black;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+.buttan{
+    border: 0;
+    background: transparent;
+    padding-right: 12px;
+}
+.bbut{
+    margin-left: 10px;
+    display: flex;
+    width: 165px;
+    height: 43px;
+    align-items: center;
+    background-color: rgba(109, 109, 110, 0.7);
+    justify-content: center;
+    border-radius: 5px;
+}
+.matar{
+    color: white;
+    border: 0;
+    background: transparent;
+    padding-right: 12px;
+}
+.infobut{
+        color: white;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
